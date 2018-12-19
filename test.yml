@@ -1,0 +1,7 @@
+---
+- hosts: localhost
+  gather_facts: true
+  tasks:
+    - name: Print dict
+      debug:
+        var: dict_example
